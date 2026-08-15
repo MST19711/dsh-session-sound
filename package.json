@@ -1,0 +1,27 @@
+{
+  "name": "@deepseek-ai/dsh-session-sound",
+  "description": "Session pause & completion sound alerts for the DeepSeek Harness Web UI: 15 Ubuntu Yaru sounds, independently configurable, persistent across restarts.",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "assets"
+  ],
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  }
+}

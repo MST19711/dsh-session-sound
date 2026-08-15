@@ -1,6 +1,6 @@
 # License
 
-## 插件代码（plugin.host.js / plugin.client.js / manifest.json / 文档）
+## 插件代码（lib/index.js / lib/client.js / package.json / 文档）
 
 MIT License
 
